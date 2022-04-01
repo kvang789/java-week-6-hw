@@ -8,6 +8,7 @@ public class Card {
 	private String cardSuit;
 	private int rank; 
 
+	
 	public Card(int cardValue, String cardSuit, int rank) {
 		this.cardValue = cardValue;
 		this.cardSuit = cardSuit;

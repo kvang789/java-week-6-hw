@@ -7,6 +7,7 @@ import java.util.Random;
 public class App {
 	List<String> names = List.of("Bob", "Linda", "Tina", "Gene", "Louise");
 
+	
 	private Random random = new Random();
 
 	public static void main(String[] args) {
