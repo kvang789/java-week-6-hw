@@ -18,7 +18,7 @@ public class Player {
 	}
 
 	@Override
-	public String toString() {//describe method 1.c.ii.1
+	public String toString() { //describe method 1.c.ii.1
 		return "Player [name=" + name + ", hand=" + hand + ", score=" + getScore() + "]";
 	}
 

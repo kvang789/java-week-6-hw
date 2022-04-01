@@ -54,7 +54,7 @@ public class Deck {
 
 	}
 	public int size() {
-		return cards.size(); //return the size of the card
+		return cards.size(); 
 	}
 
 	public Card draw() {

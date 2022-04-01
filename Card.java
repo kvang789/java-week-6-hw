@@ -6,7 +6,7 @@ import java.util.List;
 public class Card {
 	private int cardValue;
 	private String cardSuit;
-	private int rank; //instance variables
+	private int rank; 
 
 	public Card(int cardValue, String cardSuit, int rank) {
 		this.cardValue = cardValue;

@@ -14,7 +14,7 @@ public class App {
 
 	}
 
-	private void playTheGame() { //new instance
+	private void playTheGame() { 
 		List<String> playerNames = new LinkedList<>(names);
 		Player player1 = findPlayer(playerNames);
 		Player player2 = findPlayer(playerNames);
