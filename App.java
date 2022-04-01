@@ -90,7 +90,7 @@ public class App {
 	}
 
 	private Player findPlayer(List<String> names) {
-		int pos = random.nextInt(names.size()); //position
+		int pos = random.nextInt(names.size()); 
 		String name = names.remove(pos); //this removes the names so a player isn't playing against themselves
 		return new Player(name);
 	}

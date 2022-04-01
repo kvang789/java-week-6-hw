@@ -16,7 +16,7 @@ public class Card {
 
 	@Override
 	public String toString() {
-		return cardValue + " of " + cardSuit; //this will be for rank of suit
+		return cardValue + " of " + cardSuit; 
 	}
 
 	public int getRank() {
@@ -27,7 +27,7 @@ public class Card {
 		this.rank = rank;
 	}
 
-	public int getCardValue() {
+	public int getCardValue() { 
 		return cardValue;
 	}
 

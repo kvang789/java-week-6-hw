@@ -35,7 +35,7 @@ public class Deck {
 
 		builder.append("Deck:\n");
 
-		for(Card card : cards) { //could use "this" in replacement of cards
+		for(Card card : cards) { 
 			builder.append("  ").append(card).append("\n");
 		}
 		return builder.toString();
@@ -49,7 +49,7 @@ public class Deck {
 
 		while(!temp.isEmpty()) {
 			int pos = random.nextInt(temp.size());
-			cards.add(temp.remove(pos)); //
+			cards.add(temp.remove(pos)); 
 		}
 
 	}

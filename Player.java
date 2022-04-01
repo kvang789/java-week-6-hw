@@ -9,7 +9,7 @@ public class Player {
 	private List<Card> hand = new ArrayList<>();
 	private int score;
 
-	public Player(String name) { // constructor 
+	public Player(String name) {  
 		this.name = name;
 	}
 
